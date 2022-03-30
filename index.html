@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>quiz</title>
+        
+    </head>
+    
+    <link rel="stylesheet" href="css/index.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <body>
+        <div class = "mainheading" >Quizly - An Online test Application</div>
+        <br/><br/><br/>
+
+        <div class="qPanel">
+            
+             <div class="ques" id="question"> 
+             </div>
+             <div class="radiooptions"><input type="radio" id="opt1" name="options">
+                <span id="optt1"></span>
+            </div>
+            <div class="radiooptions"><input type="radio" id="opt2" name="options">
+                <span id="optt2"></span>
+            </div>
+            <div class="radiooptions"><input type="radio" id="opt3" name="options">
+                <span id="optt3"></span>
+            </div>
+            <div class="lftCss">
+            <button class="nxtBtn" onclick="checkAnswer()">Next</button>
+            </div>
+        </div>
+        <script src="js/data.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+    </html>
